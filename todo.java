@@ -22,10 +22,8 @@ public class todo extends Application {
         gc.setLineWidth(2);
         Font theFont = Font.font( "Times New Roman", FontWeight.BOLD, 48 );
         gc.setFont( theFont );
-        gc.fillText( "Hello, World!", 40, 50 );
-        gc.strokeText( "Hello, World!", 40, 50 );
-        Image alert = new Image( "alert.png" );
-        gc.drawImage( alert, 180, 100 );
+        gc.fillText( "Todo list", 40, 50 );
+        gc.strokeText( "Todo list", 40, 50 );
         theStage.show();
     }
 }
