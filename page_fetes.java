@@ -20,8 +20,8 @@ public class page_fetes extends Application {
         GraphicsContext gc = canvas.getGraphicsContext2D();
         Image fetes = new Image( "fetes.png" );
         gc.drawImage( fetes, 0, 0 );
-        gc.fillText( "Lundi", 71, 125 );
-        gc.strokeText( "Lundi", 71, 125 );
+//        gc.fillText( "Lundi", 71, 125 );
+//        gc.strokeText( "Lundi", 71, 125 );
 
                 theStage.show();
     }
