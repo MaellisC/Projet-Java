@@ -30,5 +30,6 @@ public class Mois  extends Application {
         button_Mars.setTranslateX(318);
         button_Mars.setTranslateY(120);
         theStage.show();
+        //ok
     }
 }

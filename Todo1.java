@@ -14,6 +14,7 @@ public class Todo1 extends Application {
         root.getChildren().add(canvas);
         GraphicsContext gc = canvas.getGraphicsContext2D();
          theStage.show();
+         //should work modif1
     }
 }
 
